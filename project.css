@@ -66,7 +66,7 @@
 }
 .project__list-item {
   padding-left: 45px;
-  background: url("img/mark-dark.svg") no-repeat left center / 16px;
+  background: url("img/mark-dark.svg") no-repeat left 2px / 16px;
   margin-bottom: 25px;
   margin-right: 25px;
 
@@ -89,5 +89,5 @@
 }
 
 .project__wrap-item {
-  flex-basis: 40%;
+  flex-basis: 590px;
 }
