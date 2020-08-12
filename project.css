@@ -1,0 +1,93 @@
+/*Fonts*/
+@font-face {
+  font-family: Circe;
+  font-weight: 400;
+  src: url("fonts/Circe-Regular.ttf");
+}
+@font-face {
+  font-family: Circe;
+  font-weight: 500;
+  src: url("fonts/Circe-Bold.ttf");
+}
+
+
+.project__purposes {
+
+}
+
+.project__specifications {
+
+}
+
+.project__new_concept {
+  max-width: 1024px;
+}
+
+.project__title {
+  margin-bottom: 40px;
+
+  font-family: Circe;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+
+  color: #4343E2;
+}
+.project__list {
+
+}
+.project__purposes-item {
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 45px;
+  background: url("img/mark-dark.svg") no-repeat left center / 16px;
+  margin-bottom: 25px;
+  /* width: 40%; */
+  margin-right: 25px;
+  color: #2D2D2D;
+}
+
+.project__paragraph {
+  margin-bottom: 20px;
+
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #2D2D2D;
+}
+.project__list {
+
+}
+.project__list-item {
+  padding-left: 45px;
+  background: url("img/mark-dark.svg") no-repeat left center / 16px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #2D2D2D;
+}
+
+.project__specifications {
+
+}
+.project__wrap {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.project__wrap-item {
+  flex-basis: 40%;
+}
