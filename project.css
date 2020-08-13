@@ -10,6 +10,27 @@
   src: url("fonts/Circe-Bold.ttf");
 }
 
+.app--project {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.app__title--project {
+  width: 590px;
+  margin: 0;
+  margin-right: 20px;
+  font-size: 22px;
+  line-height: 36px;
+
+  text-transform: uppercase;
+}
+.app__button--project {
+  width: 251px;
+  height: 60px;
+}
+.footer {
+  text-align: center;
+}
+
 
 .project__purposes {
 
@@ -19,7 +40,19 @@
 
 }
 
-.project__new_concept {
+.project__tender,
+.project__conception,
+.project__agreement,
+.project__commissioning,
+.project__conclusions {
+  padding-top: 80px;
+}
+
+.project__tender div,
+.project__conception div,
+.project__agreement div,
+.project__commissioning div,
+.project__conclusions div {
   max-width: 1024px;
 }
 
@@ -61,6 +94,13 @@
 
   color: #2D2D2D;
 }
+.project__paragraph:last-of-type {
+  margin-bottom: 0px;
+}
+.project__paragraph--blue {
+  color: #4343E2;
+}
+
 .project__list {
 
 }
@@ -79,15 +119,71 @@
   color: #2D2D2D;
 }
 
-.project__specifications {
-
+.project__frame-list {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  margin-top: 20px;
 }
+
+.project__frame-item {
+  display: flex;
+  flex-direction: column;
+  /* min-width: 310px; */
+
+  width: 49%;
+  min-height: 200px;
+  padding: 20px;
+  padding-bottom: 0;
+  border: 2px solid #4343E2;
+}
+.project__frame-item::after {
+  margin-top: auto;
+  font-family: Circe;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 100px;
+  color: #F3F3F3;
+}
+.project__frame-item:first-child::after {
+  content: "1";
+}
+.project__frame-item:nth-child(2)::after {
+  content: "2";
+}
+.project__frame-descp {
+  margin-bottom: 5px;
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #2D2D2D;
+}
+
+@media (max-width: 767px) {
+  .project__frame-list {
+    flex-direction: column;
+  }
+  .project__frame-item {
+    width: 100%;
+  }
+  .project__frame-item:first-of-type {
+    margin-bottom: 20px;
+  }
+}
+
 .project__wrap {
   display: flex;
-  flex-wrap: wrap;
-
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
 }
 
-.project__wrap-item {
+.project__wrap-item:first-of-type {
   flex-basis: 590px;
+}
+.project__wrap-item:last-of-type {
+  flex-basis: 468px;
 }

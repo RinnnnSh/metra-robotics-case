@@ -12,12 +12,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
   <title>Проектирование роботехнических комплексов для производства</title>
-  <link rel="stylesheet" type="text/css" href="project.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="http://metrarobotics.ru/wp-content/themes/robotics/css/style.css?v=60">
   <link rel="stylesheet" type="text/css" href="http://metrarobotics.ru/wp-content/themes/robotics/css/media-queries.css?v=58">
   <link rel="shortcut icon" type="image/x-icon" href="http://metrarobotics.ru/wp-content/themes/robotics/favicon.ico">
+
+  <link rel="stylesheet" type="text/css" href="project.css" />
 
 
 <!-- This site is optimized with the Yoast SEO plugin v10.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -101,7 +102,7 @@ src="https://www.facebook.com/tr?id=2371740736392796&ev=PageView
         <nav class="header__menu">
           <a class="logo header__logo" href="/"></a>
           <ul>
-            <li class="header__menu-item active"><a href="/">О компании</a>
+            <li class="header__menu-item"><a href="/">О компании</a>
                 <ul class="sub-header__menu-item" style="flex-wrap: wrap;">
                     <li class="" "=""><a href="/information" style="text-align:left;">Полезная информация</a></li>
     				<li class="" "=""><a href="/okupaemost" style="text-align:left;">Расчет окупаемости промышленных роботов</a></li>
@@ -220,25 +221,29 @@ src="https://www.facebook.com/tr?id=2371740736392796&ev=PageView
           <img src="img/image1.png" alt="" width="468" height="310">
         </div>
       </section>
-      <section class="project__tender">
-        <h3 class="project__title">Тендер. Подписание Договора</h3>
-        <p class="project__paragraph">Особенностями данного проекта являлась очень высокая масса грузов для подобного оборудования и неровная поверхность пола производственных помещений.</p>
-        <p class="project__paragraph">В 2019 году компанией «Северсталь-Метиз» был проведен тендер. Предложение Metrarobotics было признано лучшим, как по технической концепции, так и по экономическим показателям. В том же году был заключен Договор на поставку оборудования согласно ТЗ и предложенной технической концепции.</p>
+      <section class="project__tender wrapper">
+        <div class="">
+          <h3 class="project__title">Тендер. Подписание Договора</h3>
+          <p class="project__paragraph">Особенностями данного проекта являлась очень высокая масса грузов для подобного оборудования и неровная поверхность пола производственных помещений.</p>
+          <p class="project__paragraph">В 2019 году компанией «Северсталь-Метиз» был проведен тендер. Предложение Metrarobotics было признано лучшим, как по технической концепции, так и по экономическим показателям. В том же году был заключен Договор на поставку оборудования согласно ТЗ и предложенной технической концепции.</p>
+        </div>
       </section>
-      <section class="project__tender">
-        <h3 class="project__title">Изменение концепции. Обоснование</h3>
-        <p class="project__paragraph">На стадии подготовки КД и закупки комплектующих появился ряд вопросов, решение которых привело к изменению технической концепции.</p>
-        <p class="project__paragraph project__paragraph--blue">Причины изменения концепции:</p>
-        <ul class="project__frame-list">
-          <li class="project__frame-item">
-            <p class="project__frame-descp">Наличие большого количества комплектующих производства западных компаний, что привело бы к задержкам сроков поставки, нестабильной стоимость и т.д.</p>
-          </li>
-          <li class="project__frame-item">
-            <p class="project__frame-descp">Качество полов на некоторых участках предприятий группы компаний «Северсталь» не позволяет успешно масштабировать данный проект.</p>
-          </li>
-        </ul>
+      <section class="project__conception wrapper">
+        <div class="">
+          <h3 class="project__title">Изменение концепции. Обоснование</h3>
+          <p class="project__paragraph">На стадии подготовки КД и закупки комплектующих появился ряд вопросов, решение которых привело к изменению технической концепции.</p>
+          <p class="project__paragraph project__paragraph--blue">Причины изменения концепции:</p>
+          <ul class="project__frame-list">
+            <li class="project__frame-item">
+              <p class="project__frame-descp">Наличие большого количества комплектующих производства западных компаний, что привело бы к задержкам сроков поставки, нестабильной стоимость и т.д.</p>
+            </li>
+            <li class="project__frame-item">
+              <p class="project__frame-descp">Качество полов на некоторых участках предприятий группы компаний «Северсталь» не позволяет успешно масштабировать данный проект.</p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="project__new_concept wrapper">
+      <section class="project__agreement wrapper">
         <div class="">
           <h3 class="project__title">Согласование новой концепции</h3>
           <p class="project__paragraph">Компанией-разработчиком было предложено:</p>
@@ -248,29 +253,32 @@ src="https://www.facebook.com/tr?id=2371740736392796&ev=PageView
             <li class="project__list-item">По согласованию с заказчиком, было принято решение о поставке двух AGV на базе Сарапульских электрокаров вместо одного AGV туннельного типа и трех специализированных телег. Данное решение позволило гарантированно и с запасом закрыть все потребности заказчика по данному проекту.</li>
           </ul>
           <p class="project__paragraph">Новая концепция была согласована компанией «Северсталь-метиз» в ноябре 2019 года, при условии соблюдения прежних сроков реализации проекта.</p>
-
         </div>
       </section>
-      <section class="project__commissioning project__wrap wrapper">
-        <div class="project__wrap-item">
-          <h3 class="project__title">Сдача проекта и пуско-наладочные работы</h3>
-          <p class="project__paragraph">Несмотря на вызванные пандемией ограничений, разработка, изготовление и поставка оборудования были произведены в запланированный срок (апрель 2020 года).</p>
-          <p class="project__paragraph">В процессе пуско-наладочных работ, сотрудниками Metrarobotics была проведена оптимизация маршрута движения AGV, и установлен АКБ повышенной емкости (по сравнению со штатными АКБ Сарапульского электрокара). Благодаря этим рацпредложениям были решены все поставленные задачи посредством одного AGV.</p>
-        </div>
-        <div class="project__wrap-item">
-          <img src="img/image2.png" alt="" width="468" height="310">
+      <section class="project__commissioning wrapper">
+        <div class="project__wrap">
+          <div class="project__wrap-item">
+            <h3 class="project__title">Сдача проекта и пуско-наладочные работы</h3>
+            <p class="project__paragraph">Несмотря на вызванные пандемией ограничений, разработка, изготовление и поставка оборудования были произведены в запланированный срок (апрель 2020 года).</p>
+            <p class="project__paragraph">В процессе пуско-наладочных работ, сотрудниками Metrarobotics была проведена оптимизация маршрута движения AGV, и установлен АКБ повышенной емкости (по сравнению со штатными АКБ Сарапульского электрокара). Благодаря этим рацпредложениям были решены все поставленные задачи посредством одного AGV.</p>
+          </div>
+          <div class="project__wrap-item">
+            <img src="img/image2.png" alt="" width="468" height="310">
+          </div>
         </div>
       </section>
-      <section class="project__conclusions">
-        <h3 class="project__title">Выводы и предложения</h3>
-        <ul class="project__frame-list">
-          <li class="project__frame-item">
-            <p class="project__frame-descp">Проект выполнен в полном объеме и в установленные сроки</p>
-          </li>
-          <li class="project__frame-item">
-            <p class="project__frame-descp">В процессе пуско-наладочных работ был выявлен ряд технических нюансов, по которым были сформированы предложения для дальнейшей доработке.</p>
-          </li>
-        </ul>
+      <section class="project__conclusions wrapper">
+        <div class="">
+          <h3 class="project__title">Выводы и предложения</h3>
+          <ul class="project__frame-list">
+            <li class="project__frame-item">
+              <p class="project__frame-descp">Проект выполнен в полном объеме и в установленные сроки</p>
+            </li>
+            <li class="project__frame-item">
+              <p class="project__frame-descp">В процессе пуско-наладочных работ был выявлен ряд технических нюансов, по которым были сформированы предложения для дальнейшей доработке.</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="project__resume">
         <h3 class="project__title">Итоги реализации проекта</h3>
@@ -296,17 +304,17 @@ src="https://www.facebook.com/tr?id=2371740736392796&ev=PageView
       </section>
     </main>
 
-    <section class="app">
-      <div class="wrapper app__wrapper">
-        <h3 class="app__title">Ищете решение?</h3>
-        <button class="button app__button" type="button">Оставить заявку</button>
+    <section class="app app--project">
+      <div class="wrapper app__wrapper--project">
+        <h3 class="app__title app__title--project">Ищете решение? <br> Хотите реализовать нечто подобное?</h3>
+        <button class="button app__button app__button--project" type="button">Оставить заявку</button>
       </div>
     </section>
 
     <footer class="footer">
       <div class="wrapper footer__wrapper">
         <a class="logo footer__logo" href="#top"></a>
-        <p class="footer__about">Автоматизация и роботизация производства, технологических процессов и испытаний на предприятиях России</p>
+        <!-- <p class="footer__about">Автоматизация и роботизация производства, технологических процессов и испытаний на предприятиях России</p> -->
         <p class="footer__adress"><span>Калужская область, г.Обнинск <br>ул. Красных Зорь, 26 <br>Пн.-Пт с 8:00 до 18:00</span></p>
         <p class="footer__contact">
           <a class="footer__phone" href="tel:+7(495)0216086">+7 (495) 021-60-86</a>
