@@ -40,6 +40,7 @@
 
 }
 
+.project__moments,
 .project__tender,
 .project__conception,
 .project__agreement,
@@ -47,6 +48,7 @@
 .project__conclusions {
   padding-top: 80px;
 }
+
 
 .project__tender div,
 .project__conception div,
@@ -176,14 +178,21 @@
 }
 
 .project__wrap {
-  display: flex;
+  /* display: flex; */
   /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
 .project__wrap-item:first-of-type {
   flex-basis: 590px;
+  flex-shrink: 1;
+  min-width: 400px;
 }
 .project__wrap-item:last-of-type {
   flex-basis: 468px;
+  flex-shrink: 1;
+}
+.project__wrap-item img {
+  width: 100%;
+  height: auto;
 }
