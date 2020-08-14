@@ -10,6 +10,14 @@
   src: url("fonts/Circe-Bold.ttf");
 }
 
+.wrapper {
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 .project__top {
   position: relative;
