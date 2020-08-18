@@ -1,18 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
-<!-- <head><style id="stndz-style"></style>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="format-detection" content="telephone=no">
-  <title>Проектирование роботехнических комплексов для производства</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css">
-  <link rel="stylesheet" type="text/css" href="http://metrarobotics.ru/wp-content/themes/robotics/css/style.css?v=60">
-  <link rel="stylesheet" type="text/css" href="http://metrarobotics.ru/wp-content/themes/robotics/css/media-queries.css?v=58">
-  <link rel="shortcut icon" type="image/x-icon" href="http://metrarobotics.ru/wp-content/themes/robotics/favicon.ico">
-
-  <link rel="stylesheet" type="text/css" href="project.css" /> -->
-  <head><style id="stndz-style"></style><script type="text/javascript" src="https://mc.yandex.ru/watch/50340610?wmode=5&amp;callback=_ymjsp324734412&amp;page-url=http%3A%2F%2Fmetrarobotics.ru%2F&amp;charset=utf-8&amp;browser-info=ti%3A6%3Ati%3A10%3Ans%3A1597260835695%3As%3A1536x864x24%3Ask%3A1.25%3Afpr%3A133174094501%3Acn%3A1%3Aw%3A1506x724%3Az%3A180%3Ai%3A20200812223358%3Aet%3A1597260839%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aru-ru%3Antf%3A1%3Acpf%3A1%3Apv%3A1%3Als%3A289528039408%3Arqn%3A1%3Arn%3A650206408%3Ahid%3A151704443%3Ads%3A39%2C6%2C394%2C57%2C21%2C0%2C0%2C1458%2C2%2C%2C%2C%2C2293%3Afp%3A1772%3Awn%3A42361%3Ahl%3A2%3Agdpr%3A14%3Av%3A1916%3Awv%3A2%3Arqnl%3A1%3Ast%3A1597260839%3Au%3A1597260838485168484%3At%3A%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BE%D0%B2%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0" async=""></script>
+<head>
+  <style id="stndz-style"></style>
+  <script type="text/javascript" src="https://mc.yandex.ru/watch/50340610?wmode=5&amp;callback=_ymjsp324734412&amp;page-url=http%3A%2F%2Fmetrarobotics.ru%2F&amp;charset=utf-8&amp;browser-info=ti%3A6%3Ati%3A10%3Ans%3A1597260835695%3As%3A1536x864x24%3Ask%3A1.25%3Afpr%3A133174094501%3Acn%3A1%3Aw%3A1506x724%3Az%3A180%3Ai%3A20200812223358%3Aet%3A1597260839%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aru-ru%3Antf%3A1%3Acpf%3A1%3Apv%3A1%3Als%3A289528039408%3Arqn%3A1%3Arn%3A650206408%3Ahid%3A151704443%3Ads%3A39%2C6%2C394%2C57%2C21%2C0%2C0%2C1458%2C2%2C%2C%2C%2C2293%3Afp%3A1772%3Awn%3A42361%3Ahl%3A2%3Agdpr%3A14%3Av%3A1916%3Awv%3A2%3Arqnl%3A1%3Ast%3A1597260839%3Au%3A1597260838485168484%3At%3A%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BE%D0%B2%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0" async=""></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
@@ -46,8 +36,8 @@
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script><script src="http://metrarobotics.ru/wp-includes/js/wp-emoji-release.min.js?ver=4.9.15" type="text/javascript" defer=""></script>
 		<style type="text/css">
-img.wp-smiley,
-img.emoji {
+  img.wp-smiley,
+  img.emoji {
 	display: inline !important;
 	border: none !important;
 	box-shadow: none !important;
@@ -57,15 +47,15 @@ img.emoji {
 	vertical-align: -0.1em !important;
 	background: none !important;
 	padding: 0 !important;
-}
-</style>
-<link rel="https://api.w.org/" href="http://metrarobotics.ru/wp-json/">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://metrarobotics.ru/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://metrarobotics.ru/wp-includes/wlwmanifest.xml">
-<meta name="generator" content="WordPress 4.9.15">
-<link rel="shortlink" href="http://metrarobotics.ru/">
-<link rel="alternate" type="application/json+oembed" href="http://metrarobotics.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmetrarobotics.ru%2F">
-<link rel="alternate" type="text/xml+oembed" href="http://metrarobotics.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmetrarobotics.ru%2F&amp;format=xml">
+  }
+  </style>
+  <link rel="https://api.w.org/" href="http://metrarobotics.ru/wp-json/">
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://metrarobotics.ru/xmlrpc.php?rsd">
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://metrarobotics.ru/wp-includes/wlwmanifest.xml">
+  <meta name="generator" content="WordPress 4.9.15">
+  <link rel="shortlink" href="http://metrarobotics.ru/">
+  <link rel="alternate" type="application/json+oembed" href="http://metrarobotics.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmetrarobotics.ru%2F">
+  <link rel="alternate" type="text/xml+oembed" href="http://metrarobotics.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmetrarobotics.ru%2F&amp;format=xml">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-125798296-1"></script>
@@ -609,68 +599,6 @@ src="https://www.facebook.com/tr?id=2371740736392796&ev=PageView
 
 
 
-    	<div class="modal_qr" data-click="close">
-    		<div class="modal_qr-window">
-    		<div class="modal_qr-korona-wrapper">
-    			<div class="modal_qr-korona"></div>
-    		</div>
-
-
-
-    			<div class="window-right-block">
-    				<div class="window-right-block--top">
-    					<div class="window-right-block--top-close" data-click="close"></div>
-    				</div>
-
-    				<div class="window-right-block--text">
-    					<div class="window-right-block--text-title">Уважаемые посетители нашего сайта!</div>
-
-    					<div class="window-right-block--text-text">Несмотря на официальные выходные<br>
-    						в период с 30 марта по 30 апреля <br>
-    						<span>мы остаёмся на связи</span> <br>
-    						и принимаем все поступающие запросы <br>
-    						<a style="text-decoration: underline;" href="http://metrarobotics.ru/contacts/">по телефону</a> и <a style="text-decoration: underline;" href="http://metrarobotics.ru/contacts/">электронной почте</a>.
-    					</div>
-
-
-    					<div class="window-right-block--text-big-text">
-    						Пишите нам через <button data-click="close" class="button footer__button modal_button_callback">форму
-    					обратной связи!</button></div>
-    				</div>
-
-
-    			</div>
-    		</div>
-    	</div>
-
-    	<script>
-        		/*document.addEventListener('DOMContentLoaded', function(event) {
-        			function getCookie(name) {
-        				let matches = document.cookie.match(new RegExp(
-        					"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-        					));
-        				return matches ? decodeURIComponent(matches[1]) : undefined;
-        			}
-
-        			if(!getCookie('modal_qr_new')) {
-        				var modal_qr = document.querySelector('.modal_qr');
-        				modal_qr.classList.add('modal_qr-open');
-
-        				document.addEventListener('click', function(event) {
-        					if(event.target.dataset.click === 'close') {
-        						modal_qr.classList.remove('modal_qr-open')
-        					}
-        				})
-
-                        document.cookie = "modal_qr_new=open";
-        			}
-        		})*/
-        	</script>
-
-
-
-
-
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
@@ -720,6 +648,7 @@ src="https://www.facebook.com/tr?id=2371740736392796&ev=PageView
     &noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
+
     <script src="js/jquery.min.js"></script>
     <script src="js/tiny-slider.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
