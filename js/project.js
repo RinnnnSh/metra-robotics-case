@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
   /*$(".header__menu a , .logo , .footer__logo, .banner__more, .banner__start").on("click", function (event) {
     event.preventDefault();
     var id  = $(this).attr('href'),
@@ -447,6 +446,22 @@ $(document).ready(function () {
       download_file('http://metrarobotics.ru/wp-content/themes/robotics/pdf/rtkForPP.pdf', 'rtkForPP.pdf');
     });
   }(jQuery));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
