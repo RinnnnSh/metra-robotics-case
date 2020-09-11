@@ -17,7 +17,14 @@ $(document).ready(function () {
   })
 
 
+  $('.project__wrap-item img').click(
+    function() {
+      $('.project__wrap-item img').animate({
+        "position": "relative",
+        "left": "100%"
 
+      },"slow")
+  });
 
 
 

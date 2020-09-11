@@ -326,6 +326,7 @@ filter: drop-shadow(-10px 20px 30px rgba(0, 0, 0, 0.35));
 .project__frame-item {
   display: flex;
   flex-direction: column;
+  background-color: white;
 
   width: 49%;
   min-height: 200px;
