@@ -397,6 +397,7 @@ filter: drop-shadow(-10px 20px 30px rgba(0, 0, 0, 0.35));
   margin-left: 20px;
 }
 .project__wrap-item img {
+  position: relative;
   width: 100%;
   height: auto;
 }
