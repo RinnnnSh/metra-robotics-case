@@ -40,6 +40,7 @@ $(document).ready(function () {
   });
 
 
+  $('.image-galery').fancybox();
 
 
 

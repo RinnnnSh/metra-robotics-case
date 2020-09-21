@@ -118,13 +118,15 @@ $(document).ready(function () {
     });
   });
 
-  $('.industry__button').click(function () {
-    var industryNum = $(this).attr('data-industry')
-    $.fancybox.open({
-      type: "inline",
-      src: "#popup-industry-" + industryNum
-    })
-  })
+
+
+  // $('.industry__button').click(function () {
+  //   var industryNum = $(this).attr('data-industry')
+  //   $.fancybox.open({
+  //     type: "inline",
+  //     src: "#popup-industry-" + industryNum
+  //   })
+  // })
 
   // $(".js-button-feedback").on("click", () => {
   //   $.fancybox.open({
