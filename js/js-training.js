@@ -45,4 +45,52 @@ $(document).ready(function () {
 
 
 
+
+
+
+
+const slider = tns({
+    container: document.querySelector(".glr-slider"),
+    nav: false,
+    autoplay: true,
+    autoplayButton: false,
+    items: 1,
+    gutter: 20,
+    controls: false,
+    responsive: {
+      "740": {
+        fixedWidth: 468
+      },
+      "1300": {
+        items: 2,
+        fixedWidth: 468
+      }
+    }
+});
+
+document.querySelector(".next").onclick = (() => {
+    slider.goTo("next");
 })
+
+document.querySelector(".prev").onclick = (() => {
+    slider.goTo("prev");
+});
+
+// const slideCount = (() => {
+//
+//     const info = slider.getInfo();
+//     const slideCount = `slideCount: ${info.slideCount}`;
+//     const items = `items: ${info.items}`;
+//
+//     console.log(slideCount, items);
+//
+// });
+//
+// window.onresize = function(e) {
+//     slideCount();
+// };
+//
+// slideCount();
+
+
+});
